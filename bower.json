@@ -1,0 +1,19 @@
+{
+  "name": "beat_box",
+  "version": "0.0.0",
+  "authors": [
+    "Hendrixer <willscottmoss@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "client/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-local-storage": "~0.0.4"
+  }
+}
