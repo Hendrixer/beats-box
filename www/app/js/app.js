@@ -38,7 +38,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     .state('app', {
       url: "/app",
       abstract: true,
-      templateUrl: "templates/menu.html",
+      templateUrl: "app/templates/menu.html",
       controller: 'AppCtrl'
     })
 
@@ -46,7 +46,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       url: "/search",
       views: {
         'menuContent' :{
-          templateUrl: "templates/search.html"
+          templateUrl: "app/templates/search.html"
         }
       }
     })
@@ -55,7 +55,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       url: "/browse",
       views: {
         'menuContent' :{
-          templateUrl: "templates/browse.html"
+          templateUrl: "app/templates/browse.html"
         }
       }
     })
@@ -63,7 +63,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       url: "/playlists",
       views: {
         'menuContent' :{
-          templateUrl: "templates/playlists.html",
+          templateUrl: "app/templates/playlists.html",
           controller: 'PlaylistsCtrl'
         }
       }
@@ -73,7 +73,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       url: '/login',
       views: {
         'menuContent': {
-          templateUrl: 'templates/login.html',
+          templateUrl: 'app/templates/login.html',
           controller: 'AppCtrl'
         }
       }
@@ -83,7 +83,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       url: "/playlists/:playlistId",
       views: {
         'menuContent' :{
-          templateUrl: "templates/playlist.html",
+          templateUrl: "app/templates/playlist.html",
           controller: 'PlaylistCtrl'
         }
       }
